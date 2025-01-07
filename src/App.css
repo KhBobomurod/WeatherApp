@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #83a4d4, #b6fbff);
+  color: #333;
+  height: 94.2vh;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+div {
+  text-align: center;
+  margin-top: 20px;
+}

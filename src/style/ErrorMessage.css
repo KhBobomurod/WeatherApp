@@ -1,0 +1,13 @@
+.error-message {
+    color: red;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+  
+.error-message::before {
+    content: "⚠️ ";
+}
+  
+.error-message::after {
+    content: "⚠️ ";
+}

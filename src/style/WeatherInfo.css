@@ -1,0 +1,22 @@
+.weather-info {
+    background: white;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .weather-info h2 {
+    font-size: 2rem;
+    color: #0153ab;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
