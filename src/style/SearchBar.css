@@ -29,3 +29,17 @@
 .search-bar button:hover {
   background-color: #0056b3;
 }
+
+@media (max-width: 768px) {
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .search-bar input {
+    width: 90%;
+  }
+
+  .search-bar button {
+    width: 90%;
+  }
+}
