@@ -10,6 +10,11 @@ function WeatherInfo({ weather }) {
       <p>Harorat: {weather.main.temp}°C</p>
       <p>Namlik: {weather.main.humidity}%</p>
       <p>Shamol tezligi: {weather.wind.speed} m/s</p>
+      <p>Asosiy: {weather.weather[0].description}</p>
+      <img
+        src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`}
+        alt="Weather icon"
+      />
     </div>
   );
 }
